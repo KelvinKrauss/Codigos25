@@ -31,4 +31,4 @@ class Solution(object):
         return stack[0]
 #input area
 s = Solution()
-print(s.parseBoolExpr("&(|(f))"))
+print(s.parseBoolExpr("&(|(v))"))
