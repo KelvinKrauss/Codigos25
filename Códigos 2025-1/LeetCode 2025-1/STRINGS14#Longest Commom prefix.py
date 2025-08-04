@@ -1,4 +1,3 @@
-#12/07/2025
 #https://leetcode.com/problems/longest-common-prefix/description/?envType=problem-list-v2&envId=string
 from typing import List
 

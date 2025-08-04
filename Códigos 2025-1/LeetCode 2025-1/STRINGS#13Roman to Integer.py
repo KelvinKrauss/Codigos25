@@ -1,4 +1,3 @@
-#before doing the algorithm i like to do the logic sometimes so:
 #create string for Roman: I, V, X, L, C, D, M.
 #(I=1)(V=5)(X=10)(L=50)(C=100)(D=500)(M=1000)
 #now logic of line 25-28

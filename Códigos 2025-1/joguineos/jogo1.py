@@ -4,24 +4,24 @@ import random
 
 pygame.init()
 
-# Screen size
+#sizescreen
 width, height = 600, 400
 win = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Snake Game")
 
-# Colors
+
 black = (0, 0, 0)
 white = (255, 255, 255)
 red = (213, 50, 80)
 green = (0, 255, 0)
 blue = (50, 153, 213)
 
-# Clock and snake block size
+
 clock = pygame.time.Clock()
 snake_block = 10
 snake_speed = 15
 
-# Font
+
 font_style = pygame.font.SysFont("bahnschrift", 25)
 
 def message(msg, color):
