@@ -1,4 +1,4 @@
-centavos = int(input("digite o valor do troco em centavos (0-99): "))
+centavos = int(input("digite o valor do troco em centavos : "))
 moedas = [50, 25, 10, 5, 1]
 for moeda in moedas:
     qtd = centavos // moeda

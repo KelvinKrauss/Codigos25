@@ -1,4 +1,3 @@
-
 vi = float(input("digite o valor inicial na conta: R$ "))
 juros = 0.12
 sa1 = vi * (1 + juros)
