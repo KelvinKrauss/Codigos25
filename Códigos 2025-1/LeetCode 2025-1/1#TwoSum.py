@@ -17,7 +17,7 @@ if __name__ == "__main__":
     sol = Solution()
     
     #TESTING AREA! 
-    nums = [3, 3]
-    target = 6
+    nums = [3, 3, 1, 2, 3 ,2 ,1 ,2,14]
+    target = 16
     result = sol.twoSum(nums, target)
     print("Result:", result)

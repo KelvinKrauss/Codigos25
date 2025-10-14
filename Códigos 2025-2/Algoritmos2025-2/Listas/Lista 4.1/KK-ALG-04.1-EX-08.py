@@ -1,6 +1,6 @@
 numeros = []
 a = 0
-while a < 10:
+while a <= 10:
     a = a + 1
     numerodigitado = int(input("digite o numero"))
     numeros.append(numerodigitado)
