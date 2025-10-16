@@ -1,4 +1,1 @@
-#
-def j(n):
-    texto = "#"
-    espacamento = 
+n,n1 = 1,2
