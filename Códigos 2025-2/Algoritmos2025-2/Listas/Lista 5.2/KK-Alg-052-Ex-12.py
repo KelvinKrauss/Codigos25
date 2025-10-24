@@ -14,5 +14,8 @@ def is_senha_valida(senha):
             return False
     else:
         return False
-                
-print(is_senha_valida(str(input())))
+               
+def main(): 
+    print(is_senha_valida(str(input("Digite sua Senha : "))))
+    
+main()

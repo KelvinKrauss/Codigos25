@@ -8,4 +8,7 @@ def senha_aleatoria():
     senha_organizada = "".join(senha)
     return senha_organizada
 
-print(senha_aleatoria())
+def main():
+    print(senha_aleatoria())
+    
+main()

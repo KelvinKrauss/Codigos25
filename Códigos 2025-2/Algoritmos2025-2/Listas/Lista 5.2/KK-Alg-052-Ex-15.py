@@ -1,20 +1,26 @@
-def hex2int(hex):
-    if hex.isdigit():
-        print (hex)
+def hex2int(hexa):
+    hexa = hexa.upper()
+    caracteres_hexa = ["A","B","C","D",'E','F']
+    if hexa in "0123456789":
+        return int(hexa)
+    elif hexa in caracteres_hexa:
+        posicao = caracteres_hexa.index(hexa)
+        return (posicao + 10)
     else:
-        hex = hex.upper()
-        caracteres_hex = ["A","B","C","D",'E','F']
-        if hex in caracteres_hex:
-            posicao = caracteres_hex.index(hex)
-            print(posicao + 10)
+        return False
 
-def int2hex(decimal):#0 a 15
+def int2hex(decimal):
+    valores_hex = ("A,B,C,D,E,F")
+    valores_hex = valores_hex.split(",")
     decimal_numero = int(decimal)
     if decimal_numero <=9:
-        print(decimal)
-    elif decimal >= 10:
+        return str(decimal)
+    elif decimal_numero >= 10 and decimal_numero <= 15:
+        return str(valores_hex[decimal_numero - 10])
+    else:
+        return False
         
-        
-
-#hex2int(str(input("Digito Hexadecimal : ")))
-int2hex(str(input("Digito Decimal : ")))
+resposta1 = hex2int(str(input("Digito Hexadecimal : ")))
+print(resposta1)
+resposta2 = int2hex(int(input("Digito Decimal : ")))
+print(resposta2)

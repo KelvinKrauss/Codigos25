@@ -4,5 +4,8 @@ def Triangulo_valido(a, b, c):
     else:
         Triangulo = True
     return Triangulo
-        
-print(Triangulo_valido(int(input("Digite o lado A : ")),int(input("Digite o lado B : ")),int(input("Digite o lado C : "))))
+
+def user_input():
+        print(Triangulo_valido(int(input("Digite o lado A : ")),int(input("Digite o lado B : ")),int(input("Digite o lado C : "))))
+      
+user_input()

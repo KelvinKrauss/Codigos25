@@ -17,4 +17,7 @@ def isInteger(n):
     else:
         return False
 
-print(isInteger(str(input())))
+def main():
+    print(isInteger(str(input())))
+    
+main()

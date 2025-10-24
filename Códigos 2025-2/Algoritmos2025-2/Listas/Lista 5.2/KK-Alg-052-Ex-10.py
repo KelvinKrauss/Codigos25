@@ -7,5 +7,12 @@ def é_primo(n):#5
         return True
     else:
         return False
-        
-print(é_primo(int(input())))
+
+def main():
+    bol = (é_primo(int(input("Digite o numero : "))))
+    if bol == True:
+        print ('É primo')
+    else:
+        print ('Não é primo')
+    
+main()

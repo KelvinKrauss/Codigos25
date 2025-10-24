@@ -12,5 +12,8 @@ def Dias_em_um_mês(mes,ano):
             else:
                 return 28
                 
-mes = Dias_em_um_mês(int(input("Digite o mês no formato 00 : ")),int(input("Digite o ano no formato 0000 : ")))
-print(f"o mês tem {mes} dias")
+def main():
+    mes = Dias_em_um_mês(int(input("Digite o mês no formato 00 : ")),int(input("Digite o ano no formato 0000 : ")))
+    print(f"o mês tem {mes} dias")
+    
+main()

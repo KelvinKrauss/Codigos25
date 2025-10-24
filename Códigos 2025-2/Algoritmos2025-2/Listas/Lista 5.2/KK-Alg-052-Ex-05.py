@@ -5,5 +5,10 @@ def numeros_ordinais(n):
     else:
         print(lista[n - 1])
 
+def main():
+    numero = 1
+    while numero <= 12:
+        numeros_ordinais((numero))
+        numero = numero + 1
 
-numeros_ordinais(int(input("Digite o nome que você quer o nome em ordinal : ")))
+main()
